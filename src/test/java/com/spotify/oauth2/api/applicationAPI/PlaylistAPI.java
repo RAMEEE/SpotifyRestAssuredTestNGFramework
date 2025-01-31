@@ -17,17 +17,17 @@ public class PlaylistAPI {
         return RestResource.post(getToken(), USERS+"/"+ ConfigLoader.getInstance().getUser_id()+PLAYLISTS, requestPlaylist);
     }
 
-    @Step
+
     public static Response post(String token, Playlist requestPlaylist){
         return RestResource.post(token, USERS+"/"+ ConfigLoader.getInstance().getUser_id()+PLAYLISTS, requestPlaylist);
     }
 
-    @Step
+
     public static Response get(String playlistID){
         return RestResource.get(getToken(), PLAYLISTS+"/" + playlistID);
     }
 
-    @Step
+
     public static Response update(Playlist requestPlaylist, String playlistID){
         return RestResource.update(getToken(), PLAYLISTS+"/"+ playlistID, requestPlaylist);
     }
