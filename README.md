@@ -95,5 +95,5 @@ RestAssuredFramework/
 Feel free to fork, contribute, and raise pull requests for enhancements or bug fixes.
 
 ## Author
-Developed by **Ramkumar A.** 🚀
+Developed by **Ramkumar A.**
 
